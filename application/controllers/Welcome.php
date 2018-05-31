@@ -24,10 +24,5 @@ class Welcome extends CI_Controller {
 		$this->load->view('send_email');
 		$this->load->view('templates/footer');
 	}
-
-	public function save_data(){
-		//validate database
-
-		//save data in database
-	}
+	
 }
